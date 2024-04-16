@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="print.css">
+</head>
+<body>
+    
+    <% data.forEach((data)=>{ %>
+        <div class="box">
+        <p>Id:- <%= data.userId %></p>
+        <p>Name:- <%= data.username %></p>
+        <p>Age:- <%= data.age %></p>
+        <p>Email:- <%= data.email %></p>
+        <p>Adress:- <%= data.address %></p>
+        </div>
+
+   <% }) %>
+    
+</body>
+</html>

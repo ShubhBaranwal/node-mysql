@@ -1,0 +1,20 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+input,label{
+    width: 90%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+form  button{
+    background-color: lightseagreen;
+    color: white;
+    padding: 20px 30px;
+}
